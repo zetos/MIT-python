@@ -14,6 +14,7 @@ def get_ratios(L1, L2):
             raise ValueError('get_ratios called with a bad arg')
     return ratios
 
+# Assertions
 
 def avg(grades):
     assert not len(grades) == 0, 'no grades data'
